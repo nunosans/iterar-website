@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Screenshot of the iterar website](http://i.imgur.com/DwpMrDE.jpg)
+
 This repository contains the front end code for the current [iterar.co][1] website.
 
 ## Tech stack
