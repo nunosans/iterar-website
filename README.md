@@ -6,12 +6,12 @@ This repository contains the front end code for the current [iterar.co][1] websi
 
 ## Tech stack
 
-This is a static website built with [Middleman](https://middlemanapp.com).
+This is a static website built with [Middleman][2].
 It uses HTML, SCSS, JavaScript and jQuery.
 
 ## Installation
 
-To install [Middleman](https://middlemanapp.com), please run:
+To install [Middleman][2], please run:
 ```
 $ gem install middleman
 ```
@@ -50,3 +50,4 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 [1]: http://iterar.co
+[2]: https://middlemanapp.com
