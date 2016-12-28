@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import "reset";
+
+// Helpers and foundation.
+@import "00_variables";
+
+// Standard components.
+@import "10_body";
+@import "10_header";
+@import "10_section";
+@import "10_footer";
+
+// View-specific styles.
+@import "30_about-us";
+@import "30_knok";
+@import "30_vrcare";
+@import "30_the-scientist";
+
+.desktop-image {
+  display: none;
+}
+@media only screen and (min-width : 992px) {
+  .link--container {
+    height: 100%;
+    text-align: center;
+  }
+  .image--wrapper {
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+  }
+  .image--wrapper img {
+    width: 80vh;
+    max-width: 80%;
+  }
+  .image--wrapper .right--container img {
+    width: 60%;
+    max-width: 750px;
+  }
+  .text--container {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+  }
+  .mobile-image {
+    display: none;
+  }
+  .desktop-image {
+    display: inline;
+  }
+}
